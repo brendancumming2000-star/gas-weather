@@ -1,0 +1,78 @@
+{
+  "verified_at": "2026-09-15T04:54:12.872907+00:00",
+  "sources": {
+    "gfs": {
+      "observed_at": "2026-09-14T18:00:00+00:00",
+      "fetched_at": "2026-09-15T04:54:10.179909+00:00",
+      "source_url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20260914/18/atmos/gfs.t18z.pgrb2.1p00.f000.idx",
+      "warnings": []
+    },
+    "cpc": {
+      "observed_at": "2026-09-14",
+      "fetched_at": "2026-09-15T04:54:11.327789+00:00",
+      "source_url": "https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/nao_index.html",
+      "warnings": []
+    },
+    "snow": {
+      "observed_at": "2026-08-31",
+      "fetched_at": "2026-09-15T04:54:10.118420+00:00",
+      "source_url": "https://climate.rutgers.edu/snowcover/files/wkcov.eurasia.txt",
+      "warnings": [
+        "Latest Rutgers weekly file is 15 days old (week ending 2026-08-31); publication can lag. This is the latest source observation, not today's snow cover."
+      ]
+    },
+    "ice": {
+      "observed_at": "2026-09-13",
+      "fetched_at": "2026-09-15T04:54:10.168430+00:00",
+      "source_url": "https://noaadata.apps.nsidc.org/NOAA/G02135/north/daily/data/N_seaice_extent_daily_v4.0.csv",
+      "warnings": []
+    },
+    "eia": {
+      "observed_at": "2026-09-10T00:00:00+00:00",
+      "fetched_at": "2026-09-15T04:54:09.734539+00:00",
+      "source_url": "https://www.eia.gov/naturalgas/",
+      "warnings": []
+    }
+  },
+  "gfs_model_run": "2026-09-14T18:00:00+00:00",
+  "regions": 8,
+  "days": 15,
+  "first_valid": "2026-09-16",
+  "last_valid": "2026-09-30",
+  "weighted_hdd": 20.168425832838604,
+  "normal_hdd": 31.319808213383702,
+  "all_normals_available": true,
+  "second_refresh_preserved_all_prior_snapshots": true,
+  "cpc_images_verified": true,
+  "cpc_image_snapshots_verified": true,
+  "nao_observed_date": "2026-09-12",
+  "nao_ensemble_initialization": "2026-09-14",
+  "archive_validation_at": "2026-09-15T04:59:04.460428+00:00",
+  "archived_comparisons": [
+    {
+      "comparison_hours": 6,
+      "model_run": "2026-09-14T12:00:00+00:00",
+      "retrieved_at": "2026-09-15T04:58:33.781134+00:00",
+      "retrieval_mode": "archive",
+      "matched_days": 14,
+      "hdd_change": -0.08591752979756806
+    },
+    {
+      "comparison_hours": 24,
+      "model_run": "2026-09-13T18:00:00+00:00",
+      "retrieved_at": "2026-09-15T04:58:29.904590+00:00",
+      "retrieval_mode": "archive",
+      "matched_days": 14,
+      "hdd_change": -10.92431631667514
+    },
+    {
+      "comparison_hours": 48,
+      "model_run": "2026-09-12T18:00:00+00:00",
+      "retrieved_at": "2026-09-15T04:58:34.581247+00:00",
+      "retrieval_mode": "archive",
+      "matched_days": 13,
+      "hdd_change": -1.9225837506725654
+    }
+  ],
+  "automated_tests_passed": 64
+}

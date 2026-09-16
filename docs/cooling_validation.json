@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-09-15T05:21:50.841166+00:00",
+  "gfs_model_run": "2026-09-15T00:00:00+00:00",
+  "forecast_rows": 120,
+  "forecast_days": 15,
+  "cooling_normals_complete": true,
+  "previous_snapshot_unchanged": true,
+  "weighted_cdd": 123.12968070341616,
+  "normal_cdd": 76.57137469756141,
+  "combined_demand_assumptions": {
+    "heating": 0.8,
+    "cooling": 0.4
+  },
+  "estimated_changes_vs_normal": {
+    "days": 15,
+    "heating": -0.9366228782117895,
+    "cooling": 1.2415548268227943,
+    "total": 0.3049319486110045,
+    "cumulative": 4.573979229165067
+  }
+}
