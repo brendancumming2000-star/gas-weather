@@ -34,8 +34,17 @@ repository files at its root; extract it before uploading to GitHub.
 5. Deploy and set the app's audience to public so Dad can open the URL without
    an account. Check the deployed page, all four NOAA images, and the source audit.
 
-No repository or public app has been created by preparing the upload folder.
-Record the actual repository and deployed URL here once deployment succeeds.
+## Live deployment
+
+- Public app: [Gas Weather](https://gas-weather-brendan.streamlit.app/)
+- Public source repository: [brendancumming2000-star/gas-weather](https://github.com/brendancumming2000-star/gas-weather)
+- Branch: **main**
+- Entrypoint: **app.py**
+- Python version: **3.12**
+
+The live deployment was verified on **September 16, 2026 (UTC)**, with all six
+public data sources loaded in the hosted app. Share the app link above; it works
+independently of the owner's Mac.
 
 ## Hosted behavior
 
